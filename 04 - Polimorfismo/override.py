@@ -62,6 +62,6 @@ if __name__ == "__main__":
     etl_csv = ETLCSV(fonte_csv)
     etl_csv.executar_etl()
 
-    fonte_excel = './data/vendas.xlsx'  
+    fonte_excel = './data/Vendas.xlsx'  
     etl_excel = ETLExcel(fonte_excel)
     etl_excel.executar_etl()
